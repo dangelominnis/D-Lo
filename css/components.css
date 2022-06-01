@@ -1,0 +1,129 @@
+/* Buttons */
+/* White Button */
+.btn-white-transparent {
+  	pointer-events: auto;
+	cursor: pointer;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: 1.25rem;
+  	font-weight: 500;
+	position: relative;
+	display: inline-block;
+  	text-align: center;
+  	text-decoration: none;
+	background: black;
+	padding: 0;
+	border-radius: 32px;
+}
+
+.btn-white-transparent::before,
+.btn-white-transparent::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-white-transparent span {
+  	display: block;
+	background: var(--color-white);
+  	color: black;
+	padding: 1.5rem 2rem;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 32px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.btn-white-transparent:hover span {
+	transform: translate3d(-8px, -8px, 0);
+}
+
+/* Grey Button */
+.btn-grey-transparent {
+  	pointer-events: auto;
+	cursor: pointer;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: 1.25rem;
+  	font-weight: 500;
+	position: relative;
+	display: inline-block;
+  	text-align: center;
+  	text-decoration: none;
+	background: black;
+	padding: 0;
+	border-radius: 32px;
+}
+
+.btn-grey-transparent::before,
+.btn-grey-transparent::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-grey-transparent span {
+  	display: block;
+	background: var(--color-light-grey);
+  	color: black;
+	padding: 1.5rem 2rem;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 32px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.btn-grey-transparent:hover span {
+	transform: translate3d(-8px, -8px, 0);
+}
+
+/* Black Outline Button */
+.btn-black-outline {
+	pointer-events: auto;
+  cursor: pointer;
+  border: none;
+  padding: 1.5rem 3rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: 1.25rem;
+	font-weight: 500;
+  position: relative;
+  display: inline-block;
+	text-align: center;
+	text-decoration: none;
+  background: white;
+  padding: 0;
+  border-radius: 32px;
+}
+
+.btn-black-outline::before,
+.btn-black-outline::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-black-outline span {
+	display: block;
+  background: white;
+	color: black;
+  padding: 1.5rem 2rem;
+  border: 1px solid var(--color-black);
+  border-radius: 32px;
+  transform: translate3d(-4px, -4px, 0);
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.btn-black-outline:hover span {
+  transform: translate3d(-8px, -8px, 0);
+}

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>D'Angelo Minnis | Designer & Developer</title>
+    <!-- Google Fonts -->
+    <!-- Work Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <h1>Hi. My name is <span>D'Angelo Minnis</span> and I love designing stuff.</h1>
+                <p>I design all sorts of things. Logos, branding kits, websites, applications, drawings, paintings. There's nothing more beautiful than having a vision, creating something, and bringing it to life. If there is one thing I'm in love with, it's this: the process of creation.</p>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/dlo-logo-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="#pricing">Experience</a>
+                <a class="nav__link" href="#services">About</a>
+                <a class="nav__link" href="#contact">Projects</a>
+                <a href="#" class="btn-white-transparent"><span>Contact</span></a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Portfolio Section -->
+<section class="portfolio">
+    <div class="portfolio-box">
+        <div class="portfolio-item">
+            <img src="img/secret-timepieces-mockup.jpg" alt="">
+        </div>
+        <div class="portfolio-item">
+            <img src="img/secret-timepieces-mockup.png" alt="">
+        </div>
+        <div class="portfolio-item">
+            <img src="img/secret-timepieces-mockup.jpg" alt="">
+        </div>
+        <div class="portfolio-item">
+            <img src="img/secret-timepieces-mockup.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section class="resume">
+    <div class="container">
+        <div class="resume-box">
+
+            <div class="resume-container">
+                <h3>My Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque facere dolorum debitis veritatis placeat cumque quaerat? Dolore, sapiente.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque facere dolorum debitis veritatis placeat cumque quaerat? Dolore, sapiente.</p>
+                <div class="resume-skill-box">
+                    <div class="resume-skill">
+                        <img src="img/ai.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/ps.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/id.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/xd.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/html5.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/css3.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/js.svg" alt="">
+                    </div>
+                    <div class="resume-skill">
+                        <img src="img/reactjs.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-image">
+                <img src="img/DAngelo-profile.png" alt="">
+                <div class="resume-button">
+                    <a href="#" class="btn-black-outline"><span>Download Resume &#8595;</span></a>
+                </div>
+            </div>
+
+            <div class="resume-experience">
+                <h3>My Experience</h3>
+                <div class="resume-job">
+                    <h5>Logo Genius <span>|</span> present</h5>
+                    <p>Graphic & Web Design Company</p>
+                </div>
+                <div class="resume-job">
+                    <h5>Tent Bed & Breakfast <span>|</span> 2021 - present</h5>
+                    <p>Rental Property Start-up</p>
+                </div>
+                <div class="resume-job">
+                    <h5>Graphic Design Major <span>|</span> in progress</h5>
+                    <p>Design Program @ WWU</p>
+                </div>
+                <div class="resume-job">
+                    <h5>Computer Science Minor <span>|</span> completed</h5>
+                    <p>Comp Sci Program @ WWU</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience">
+    <div class="container">
+        <h2>Providing <span>quality</span> services</h2>
+        <div class="experience-box">
+            <div class="experience-box-item">
+                <h4><span>01.</span>Graphic Designer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae corporis consectetur ullam optio soluta aliquid repudiandae repellat accusamus aperiam.</p>
+                <div class="experience-button">
+                    <a href="#" class="btn-white-transparent"><span>Logo Design</span></a>
+                </div>
+            </div>
+            <div class="experience-box-item">
+                <h4><span>02.</span>Web Developer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae corporis consectetur ullam optio soluta aliquid repudiandae repellat accusamus aperiam.</p>
+                <div class="experience-button">
+                    <a href="#" class="btn-white-transparent"><span>Web Design</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="experience-credit">
+             <div class="experience-credit-image">
+                 <img src="img/dlo-logo-01.png" alt="">
+             </div>
+             <div class="experience-credit-image">
+                <img src="img/dlo-logo-01.png" alt="">
+            </div>  
+            <div class="experience-credit-image">
+                <img src="img/dlo-logo-01.png" alt="">
+            </div>  
+            <div class="experience-credit-image">
+                <img src="img/dlo-logo-01.png" alt="">
+            </div>  
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects">
+    <div class="container">
+        <div class="projects-header-box">
+            <h2>My <span>recent</span> work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci pariatur tenetur dolor enim ad. Nulla iste sint molestias debitis molestiae.</p>
+            <div class="projects-header-button">
+                <a href="#" class="btn-grey-transparent"><span>Explore Projects</span></a>
+            </div>
+        </div>
+    
+        <div class="projects-box">
+            <div class="projects-image">
+                <img src="img/secret-timepieces-mockup.jpg" alt="">
+            </div>
+            <div class="projects-text">
+                <h2>Project One:<br>Logo Design</h2>
+                <div class="projects-skill-box">
+                    <div class="projects-skill">
+                        <h5>Branding</h5>
+                    </div>
+                    <div class="projects-skill">
+                        <h5>Web Design</h5>
+                    </div>
+                    <div class="projects-skill">
+                        <h5>Logo Design</h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum necessitatibus harum omnis earum tenetur officia nesciunt soluta delectus odit fugit!</p>
+                <div class="projects-button-box">
+                    <div class="projects-button">
+                        <a href="#" class="btn-grey-transparent"><span>View Work</span></a>
+                    </div>
+                    <div class="projects-button">
+                        <a href="#" class="btn-grey-transparent"><span>View Case Study</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="projects2-box">
+            <div class="projects2-image">
+                <img src="img/secret-timepieces-mockup.png" alt="">
+            </div>
+            <div class="projects2-text">
+                <h2>Project Two:<br>Logo Design</h2>
+                <div class="projects2-skill-box">
+                    <div class="projects2-skill">
+                        <h5>Branding</h5>
+                    </div>
+                    <div class="projects2-skill">
+                        <h5>Web Design</h5>
+                    </div>
+                    <div class="projects2-skill">
+                        <h5>Logo Design</h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum necessitatibus harum omnis earum tenetur officia nesciunt soluta delectus odit fugit!</p>
+                <div class="projects2-button-box">
+                    <div class="projects2-button">
+                        <a href="#" class="btn-grey-transparent"><span>View Work</span></a>
+                    </div>
+                    <div class="projects2-button">
+                        <a href="#" class="btn-grey-transparent"><span>View Case Study</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="projects-box">
+            <div class="projects-image">
+                <img src="img/secret-timepieces-mockup.jpg" alt="">
+            </div>
+            <div class="projects-text">
+                <h2>Project Three:<br>Web Design</h2>
+                <div class="projects-skill-box">
+                    <div class="projects-skill">
+                        <h5>Branding</h5>
+                    </div>
+                    <div class="projects-skill">
+                        <h5>Web Design</h5>
+                    </div>
+                    <div class="projects-skill">
+                        <h5>Logo Design</h5>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum necessitatibus harum omnis earum tenetur officia nesciunt soluta delectus odit fugit!</p>
+                <div class="projects-button-box">
+                    <div class="projects-button">
+                        <a href="#" class="btn-grey-transparent"><span>View Work</span></a>
+                    </div>
+                    <div class="projects-button">
+                        <a href="#" class="btn-grey-transparent"><span>View Case Study</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- LG Section -->
+<section class="lg">
+    <div class="container">
+        <div class="lg-box">
+            <div class="lg-image">
+                <img src="img/logo-genius-logo-new-06.png" alt="">
+            </div>
+            <div class="lg-text">
+                <h2>Logo Genius</h2>
+                <h4>Graphic & Web Design Company</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dicta voluptatem recusandae quidem eligendi, ea, animi ad cupiditate nihil distinctio repellat itaque exercitationem iusto veritatis!</p>
+                <div class="lg-button">
+                    <a href="#" class="btn-black-outline"><span>Logo Genius Site</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Design Section -->
+<section class="design">
+    <div class="container">
+        <h2>More <span>designs</span> and stuff</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident nesciunt architecto recusandae in fugit labore nulla totam explicabo temporibus.</p>
+        <div class="design-box">
+            <div class="design-item">
+                <div class="design-image">
+                    <img src="img/e-portfolio-work-01.png" alt="">
+                </div>
+                <h4>Company One</h4>
+                <div class="design-skill">
+                    <h5>Web Design</h5>
+                </div>
+            </div>
+
+            <div class="design-item">
+                <div class="design-image">
+                    <img src="img/e-portfolio-work-01.png" alt="">
+                </div>
+                <h4>Company One</h4>
+                <div class="design-skill">
+                    <h5>Web Design</h5>
+                </div>
+            </div>
+
+            <div class="design-item">
+                <div class="design-image">
+                    <img src="img/e-portfolio-work-01.png" alt="">
+                </div>
+                <h4>Company One</h4>
+                <div class="design-skill">
+                    <h5>Web Design</h5>
+                </div>
+            </div>
+
+            <div class="design-item">
+                <div class="design-image">
+                    <img src="img/secret-timepieces-mockup.png" alt="">
+                </div>
+                <h4>Company One</h4>
+                <div class="design-skill">
+                    <h5>Logo Design</h5>
+                </div>
+            </div>
+
+            <div class="design-item">
+                <div class="design-image">
+                    <img src="img/secret-timepieces-mockup.png" alt="">
+                </div>
+                <h4>Company One</h4>
+                <div class="design-skill">
+                    <h5>Logo Design</h5>
+                </div>
+            </div>
+
+            <div class="design-item">
+                <div class="design-image">
+                    <img src="img/secret-timepieces-mockup.png" alt="">
+                </div>
+                <h4>Company One</h4>
+                <div class="design-skill">
+                    <h5>Logo Design</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Let's discuss <span>something cool</span> together</h2>
+            <div class="contact-form">
+                <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+                    <div class="contact-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="enter your email address" required>
+                        <input type="submit" value="submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-main">
+                <img src="img/dlo-logo-01.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nostrum porro eos corrupti, laborum natus dolorem? Velit nesciunt temporibus consequuntur.</p>
+                <div class="footer-socials">
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <img src="img/site-info-text-01.png" alt="">
+                <div class="footer-link-box">
+                    <div class="footer-link">
+                        <a href="#">Portfolio</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="#">Experience</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="#">Projects</a>
+                    </div>
+                </div>
+                <div class="footer-profession">
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-staylinked"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>@ 2022 Copyright by D'Angelo Minnis</h4>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
