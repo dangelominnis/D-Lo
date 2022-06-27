@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>D'Angelo Minnis | Designer & Developer</title>
+    <!-- Google Fonts -->
+    <!-- Work Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <h1>Case Study: <span>Secret Timepieces</span></h1>
+                <div class="header-button">
+                    <a href="#case" class="btn-white-transparent"><span>Explore Now &#8595;</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/dlo-logo-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="#case">Case Study</a>
+                <a class="nav__link" href="#guide">Typography & Colors</a>
+                <a class="nav__link" href="#showcase">Showcase</a>
+                <a href="#contact" class="btn-white-transparent"><span>Contact</span></a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Case Section -->
+<section class="case" id="case">
+    <div class="container">
+        <div class="case-box">
+            <div class="case-image">
+                <img src="img/secret-timepieces-mockup.png" alt="">
+                <div class="case-image-text">
+                    <h2>Secret <span>Timepieces</span></h2>
+                    <h4>A Luxurious Watch Selling Company</h4>
+                    <p>A luxurious watch company that sells premium watches to clients. Prides themselves in being a minimal, professional, and a very classy brand.</p>
+                </div>
+            </div>
+            <div class="case-showcase">
+                <div class="case-item">
+                    <img src="img/secret-timepieces-mockup.jpg" alt="">
+                    <h4>Logos</h4>
+                    <p>Here are the logo iterations, created with primary colors and a black and white version.</p>
+                </div>
+                <div class="case-item">
+                    <img src="img/secret-timepieces-mockup.jpg" alt="">
+                    <h4>Business Cards</h4>
+                    <p>A simple and minimal business card design that exhibits logo, contact info, and website url.</p>
+                </div>
+                <div class="case-item">
+                    <img src="img/secret-timepieces-mockup.jpg" alt="">
+                    <h4>Stationary Assets</h4>
+                    <p>Here is a collection of the stationary assets, using primary colors to exhibit brand identity.</p>
+                </div>
+                <div class="case-item">
+                    <img src="img/secret-timepieces-mockup.jpg" alt="">
+                    <h4>Web Design</h4>
+                    <p>Here's a web mockup displaying the website that was designed to capture the client's vision.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Guide Section -->
+<section class="guide" id="guide">
+    <div class="container">
+        <div class="guide-box">
+            <div class="guide-style">
+                <h2><span>Typography</span><br>& colors</h2>
+                <div class="guide-color-box">
+                    <div class="guide-color" style="background-color: #000;">
+                        <h4>#000000</h4>
+                    </div>
+                    <div class="guide-color" style="background-color: #f1f2f2;">
+                        <h4 style="color: #181818;">#f1f2f2</h4>
+                    </div>
+                    <div class="guide-color" style="background-color: #ffffff;">
+                        <h4 style="color: #181818;">#ffffff</h4>
+                    </div>
+                    <div class="guide-color" style="background-color: #333333;">
+                        <h4>#333333</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="guide-font">
+                <h2 style="font-family: 'Montserrat', sans-serif;">Aa<span>Bb</span></h2>
+                <div class="guide-type">
+                    <h4 style="font-family: 'Montserrat', sans-serif;">Font Family</h4>
+                    <h3 style="font-family: 'Montserrat', sans-serif;">Work Sans</h3>
+                    <div class="guide-weight">
+                        <h5 style="font-family: 'Montserrat', sans-serif;">Regular</h5>
+                        <h5 style="font-family: 'Montserrat', sans-serif;">Medium</h5>
+                        <h5 style="font-family: 'Montserrat', sans-serif;">Bold</h5>
+                        <h5 style="font-family: 'Montserrat', sans-serif;">Extra Bold</h5>
+                    </div>
+                    <p style="font-family: 'Montserrat', sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus aspernatur libero perferendis explicabo neque, veritatis facere quibusdam mollitia non.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Showcase Section -->
+<div class="showcase" id="showcase">
+    <img src="img/secret-timepieces-mockup.jpg" alt="">
+</div>
+
+<!-- Showcase Section -->
+<div class="showcase">
+    <img src="img/secret-timepieces-mockup.png" alt="">
+</div>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Let's discuss <span>something cool</span> together</h2>
+            <div class="contact-form">
+                <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+                    <div class="contact-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="enter your email address" required>
+                        <input type="submit" value="submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-main">
+                <img src="img/dlo-logo-01.png" alt="">
+                <p>There's nothing more beautiful than having a vision, creating something, and bringing it to life. If there is one thing I'm in love with, it's this: the process of creation.</p>
+                <div class="footer-socials">
+                    <div class="footer-socials-icon">
+                        <a href="https://www.facebook.com/dangelo.minnis.5/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="https://www.instagram.com/dlo.minnis/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="https://www.linkedin.com/in/d-angelo-minnis-461505187/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="footer-info-image">
+                    <img src="img/site-info-text-01.png" alt="">
+                </div>
+                <div class="footer-link-box">
+                    <div class="footer-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <!-- <div class="footer-link">
+                        <a href="#experience">About</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="#projects">Projects</a>
+                    </div> -->
+                </div>
+                <!-- <div class="footer-profession">
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-staylinked"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>@ 2022 Copyright by D'Angelo Minnis</h4>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

@@ -241,10 +241,11 @@ body {
     justify-content: center;
     align-items: center;
     transition: .3s ease all;
+    transform: scale(1.009);
 }
 
 .portfolio-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .portfolio-item img {
@@ -356,6 +357,7 @@ body {
     width: auto;
     height: 500px;
     border-radius: 12px;
+    margin-bottom: 4rem;
 }
 
 .resume-button {
@@ -759,15 +761,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 4rem;
+    margin: 3rem;
 }
 
 .design-image {
     padding: 1rem;
     background: var(--color-black);
-    display: block;
+    /* display: block;
     transform: translate3d(-4px, -4px, 0);
-	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1); */
     margin-bottom: 2rem;
 }
 
@@ -783,22 +785,10 @@ body {
     margin-bottom: 2rem;
 }
 
-.design-skill {
-    width: 31%;
+.design-item .design-button {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
-    border: 1px solid var(--color-medium-grey);
-    border-radius: 32px;
-    padding: .5rem 1.25rem;
-}
-
-.design-skill h5 {
-    color: var(--color-medium-grey);
-    font-size: .85rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 2;
 }
 
 /* LG Section */
@@ -1363,7 +1353,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.footer-link:nth-child(3) {
+.footer-link:nth-child(4) {
     margin-bottom: 0;
 }
 
