@@ -53,8 +53,8 @@
             <nav class="nav">
                 <a class="nav__link" href="#resume">Experience</a>
                 <a class="nav__link" href="#experience">About</a>
-                <a class="nav__link" href="#projects">Design Projects</a>
-                <a class="nav__link" href="#design">Web Projects</a>
+                <a class="nav__link" href="#projects">Case Studies</a>
+                <a class="nav__link" href="#design">Portfolio</a>
                 <a href="#contact" class="btn-white-transparent"><span>Contact</span></a>
                 <!-- <a href="#" class="btn-transparent">portfolio dump &#x2192;</a> -->
             </nav>
@@ -203,7 +203,7 @@
 <section class="projects" id="projects">
     <div class="container">
         <div class="projects-header-box">
-            <h2>My <span>recent</span> projects</h2>
+            <h2>My <span>case</span> studies</h2>
             <p>Here are some of my showcased branding projects that consist of designing logos, business cards, letterheads, and social media kits for companies. View their case studies below.</p>
             <div class="projects-header-button">
                 <a href="#projects1" class="btn-grey-transparent"><span>Explore Projects</span></a>
@@ -232,9 +232,9 @@
                     <!-- <div class="projects-button">
                         <a href="#" class="btn-grey-transparent"><span>View Work</span></a>
                     </div> -->
-                    <div class="projects-button">
+                    <!-- <div class="projects-button">
                         <a href="study1.html" class="btn-grey-transparent" target="_blank"><span>View Case Study</span></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -261,16 +261,16 @@
                     <!-- <div class="projects2-button">
                         <a href="#" class="btn-grey-transparent"><span>View Work</span></a>
                     </div> -->
-                    <div class="projects2-button">
+                    <!-- <div class="projects2-button">
                         <a href="study2.html" class="btn-grey-transparent" target="_blank"><span>View Case Study</span></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     
         <div class="projects-box" id="study3">
             <div class="projects-image">
-                <img src="img/Logo Genius Case Study-02.png" alt="">
+                <img src="img/Logo Genius Case Study-04.png" alt="">
             </div>
             <div class="projects-text">
                 <h2>Project #3:<br>Logo Genius</h2>
@@ -290,9 +290,9 @@
                     <!-- <div class="projects-button">
                         <a href="#" class="btn-grey-transparent"><span>View Work</span></a>
                     </div> -->
-                    <div class="projects-button">
+                    <!-- <div class="projects-button">
                         <a href="study3.html" class="btn-grey-transparent" target="_blank"><span>View Case Study</span></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -319,10 +319,18 @@
     </div>
 </section> -->
 
+
+
+
+
+
+
+
+
 <!-- Design Section -->
 <section class="design" id="design">
     <div class="container">
-        <h2>More <span>websites</span> and stuff</h2>
+        <h2>More <span>designs</span> and stuff</h2>
         <p>Explore some of my website projects I've designed and developed for clients. All websites are developed with html5, css3, and javascript. hope you like them! </p>
         <div class="design-box">
 
@@ -468,10 +476,10 @@
                         <a href="#experience">About</a>
                     </div>
                     <div class="footer-link">
-                        <a href="#projects"> Design Projects</a>
+                        <a href="#projects"> Case Studies</a>
                     </div>
                     <div class="footer-link">
-                        <a href="#design"> Web Projects</a>
+                        <a href="#design"> Portfolio</a>
                     </div>
                 </div>
                 <!-- <div class="footer-profession">
@@ -492,6 +500,26 @@
         </div>
     </div>
 </section>
+
+<!-- Javascript -->
+<script>
+    function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 
 </body>
 </html>

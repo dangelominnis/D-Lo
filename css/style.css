@@ -745,7 +745,7 @@ body {
     font-weight: 400;
     line-height: 2;
     text-align: center;
-    padding: 0 36rem;
+    padding: 0 24rem;
     margin-bottom: 8rem;
 }
 
@@ -871,6 +871,88 @@ body {
 
 .lg-button {
 
+}
+
+/* Directory Section */
+.directory {
+    border-top: 1px solid var(--color-black);
+    padding: 12rem 4rem;
+}
+
+.directory h2 {
+    color: var(--color-black);
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.directory h3 {
+    color: var(--color-black);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.directory .underline {
+    margin-bottom: 4rem;
+}
+
+.directory-tab-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Style tab links */
+.tablink {
+    background-color: transparent;
+    border: 1px solid var(--color-black);
+    color: black;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 1.25rem 2rem;
+    border-radius: 46px;
+    font-family: inherit;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+  
+.tablink:hover {
+    background-color: var(--color-black);
+    color: white;
+}
+
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+/* Overview Section */
+.overview-section {
+    background-color: var(--color-black);
+    padding: 8rem;
+    border-radius: 24px;
+}
+
+.overview-section h2 {
+    color: var(--color-white);
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.overview-section p {
+    color: var(--color-white);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 2;
+    margin-bottom: 4rem;
 }
 
 /* ************************* Case Study Pages ************************* */
